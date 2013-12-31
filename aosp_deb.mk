@@ -26,6 +26,9 @@ $(call inherit-product, vendor/cna/configs/apns.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
+# Release name
+PRODUCT_RELEASE_NAME := Nexus7-Rev2-LTE
+
 PRODUCT_NAME := aosp_deb
 PRODUCT_DEVICE := deb
 PRODUCT_BRAND := google
